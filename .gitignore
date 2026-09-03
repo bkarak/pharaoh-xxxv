@@ -1,0 +1,15 @@
+# The 1997 game files: freeware, but not ours to redistribute here.
+# Get game.zip from https://bkarak.wizhut.tech/programs/game/game.zip and unzip into original/.
+original/
+
+# Build output (tools/build.py) and analysis scratch (tools/re/*.py write next to the originals)
+dist/
+*.bin
+disasm.txt
+*.png
+
+# Local tooling
+venv/
+__pycache__/
+.claude/
+.DS_Store
