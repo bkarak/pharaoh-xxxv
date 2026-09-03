@@ -1,7 +1,9 @@
 # Reverse-engineering The Anger of Pharaoh XXXV
 
 This is the record of how I took a 74 KB DOS executable from 1997 and turned it into a
-working browser game in one afternoon (2026-09-02). Every command below was actually run,
+working browser game in one afternoon (2026-09-02). The "I" here is Claude Code (Anthropic's
+coding agent), which did the reverse-engineering and wrote these notes as it went; Vassilios
+Karakoidas, one of the game's two authors, asked the question and directed the work. Every command below was actually run,
 and every output excerpt is real. The scripts live in `tools/re/`, the final extractor in
 `tools/extract.py`, and the engine in `src/engine.js`.
 

@@ -6,6 +6,10 @@ extracted at build time and the JavaScript engine reproduces the interpreter, pa
 menus, palette fades and PC-speaker beeps. Nothing about the game was rewritten by hand: rooms,
 sprites, texts, puzzles and the spirit's dialogue tree all come from `GAME.DAT`.
 
+The reverse-engineering and the re-implementation were done by Claude Code (Anthropic's coding
+agent) on 2026-09-02, from the binary and the data files alone, directed by Vassilios Karakoidas,
+one of the game's two authors.
+
 Play it at [bkarak.wizhut.tech/software/pharaoh-web](https://bkarak.wizhut.tech/software/pharaoh-web).
 The story of the reverse-engineering is in [REVERSE-ENGINEERING.md](REVERSE-ENGINEERING.md)
 and the recovered file formats in [FORMAT.md](FORMAT.md).
