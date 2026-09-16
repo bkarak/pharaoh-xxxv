@@ -5,7 +5,7 @@ Two pages come out of one build:
 
   dist/pharaoh.html        the standalone page: title, key legend, notes.
   dist/pharaoh-embed.html  the bare screen, for an <iframe> on another page
-                           (bkarak.wizhut.tech/software/pharaoh-web embeds it).
+                           (bkarak.wizhut.tech/software/pharaoh embeds it).
 
 `--site DIR` additionally copies the two into DIR as index.html / embed.html.
 """
@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CANONICAL = "https://bkarak.wizhut.tech/software/pharaoh-web"
+CANONICAL = "https://bkarak.wizhut.tech/software/pharaoh"
 
 HEAD = """<meta charset="utf-8">
 <title>The Anger of Pharaoh XXXV</title>

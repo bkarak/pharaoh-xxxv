@@ -10,7 +10,7 @@ The reverse-engineering and the re-implementation were done by Claude Code (Anth
 agent) on 2026-09-02, from the binary and the data files alone, directed by Vassilios Karakoidas,
 one of the game's two authors.
 
-Play it at [bkarak.wizhut.tech/software/pharaoh-web](https://bkarak.wizhut.tech/software/pharaoh-web).
+Play it at [bkarak.wizhut.tech/software/pharaoh](https://bkarak.wizhut.tech/software/pharaoh).
 The story of the reverse-engineering is in [REVERSE-ENGINEERING.md](REVERSE-ENGINEERING.md)
 and the recovered file formats in [FORMAT.md](FORMAT.md).
 
